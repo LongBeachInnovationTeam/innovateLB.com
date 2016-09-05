@@ -26,19 +26,30 @@ h6 {
 }
 
 .intro-message {
-  position: relative;
   padding-top: 5%;
   padding-bottom: 5%;
 }
 
 .intro-message > h1 {
-  font-size: 5em;
+  font-size: 4em;
   color: #00A6E7;
+}
+
+@media(min-width: 768px) {
+  .intro-message > h1 {
+    font-size: 5em;
+  }
 }
 
 .intro-message > p {
   text-shadow: 2px 2px 3px rgba(255,255,255,0.6);
-  font-size: 3em;
+  font-size: 2em;
+}
+
+@media(min-width: 768px) {
+  .intro-message > p {
+    font-size: 3em;
+  }
 }
 
 .full {
